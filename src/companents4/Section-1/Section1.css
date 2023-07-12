@@ -1,0 +1,69 @@
+.qwerty{
+  display: flex;
+  padding: 100px 0;
+}
+.pagenation{
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 35px;
+  display: grid;
+  padding-right: 50px;
+}
+.loaded-btn{
+  display: flex;
+  gap: 30px;
+}
+.cardd{
+  border-radius: 4px;
+    background: #393E46 ;
+  transition: all 0.4s ease-in-out;
+}
+.cardd:hover{
+  border-color: #E6DDC4;
+}
+.loaded-btn button{
+padding: 10px 25px;
+color: rgb(193, 27, 27);
+background: transparent;
+}
+.containerr{
+width: 80%;
+margin: 0 auto;
+}
+.imgg img{
+  object-fit: cover;
+  width: 100%;
+  height: 22vh;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pagenation{
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .pagenation{
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+  }
+  .qwerty{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ssex{
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .pagenation{
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 35px;
+    padding: 0;
+  }
+}

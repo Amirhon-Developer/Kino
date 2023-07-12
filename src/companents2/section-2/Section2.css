@@ -1,0 +1,28 @@
+.Arrival div img{
+    margin: auto;
+}
+hr{
+    color: white;
+}
+.Arrival{
+  padding: 100px 0;
+}
+.suggested-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .suggested-title h4 {
+    color: white;
+    padding-left: 15px;
+    border-left: 1px solid gray;
+  }
+  .img1{
+    width: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .img1 img{
+    width: 75%;
+    height: 30vh;
+    object-fit: cover;
+  }

@@ -1,0 +1,86 @@
+.control-wrap textarea{
+    background: #181D31 !important; 
+    height: 23.5vh;
+    border: 2px solid #678983;
+    border-radius: 8px;
+    color: white !important;
+}
+.contact-flex{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding: 60px 0;
+}
+.contact-input{
+    display: flex;
+    gap: 14px;
+}
+.contact-input input{
+background: #181D31;
+outline: none;
+color: white;
+border: 2px solid #678983;
+padding: 10px 50px;
+border-radius: 8px;
+}
+.contact-op h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+.contact-op p{
+     font-size: 13px;
+     color: #0FB5DE;
+     line-height: 40px;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
+.contact-op i{
+    font-size: 15px;
+    border: 1px solid #1f1f42;
+    padding: 7px;
+    border-radius: 50%;
+    background: transparent;
+}
+.ggg{
+    padding: 10px 0;
+    font-size: 13px;
+    color: white;
+}
+.contact-icon{
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+.contact-inputt button{
+    padding: 15px 20px 15px 20px;
+border-radius: 8px;
+color: #FFFFFF;
+background-color: #0FB5DE;
+border: 2px solid #1f1f42;
+margin-top: 2%;
+}
+.contact-icon i{
+        color: white;
+        background: #3B5998;
+}
+@media only screen and (max-width:900px) {
+  .contact-flex{
+    display: block;
+  }  
+  .contact-op{
+    display: flex;
+    justify-content: center;
+  }
+  .control-wrap textarea{
+    height: 23.5vh;
+    width: 87%;
+}
+.contact-input input{
+    padding: 10px 0;
+    width: 42.5%;
+    }
+    
+}

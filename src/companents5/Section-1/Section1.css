@@ -1,0 +1,27 @@
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.maps{
+    width: 50%;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 680px) {
+    .maps{
+        width: 50%;
+        height: 30vh;
+    }
+    
+}
+@media only screen and (max-width: 440px) {
+    .maps{
+        width: 50%;
+        height: 25vh;
+    }
+    .map{
+        padding: 50px 0;
+    }
+    
+}

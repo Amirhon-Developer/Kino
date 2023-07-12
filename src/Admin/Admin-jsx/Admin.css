@@ -1,0 +1,97 @@
+.inputs {
+  margin-top: 20px;
+  width: 50%;
+  height: 7vh;
+  outline: none;
+  border-radius: 6px;
+}
+.inputss {
+  border-radius: 3px;
+  margin-top: 20px;
+  width: 25%;
+  background-color: #222831;
+}
+.form-control {
+  margin-top: 20px;
+}
+.add {
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 53.8%;
+  padding: 5px 25px;
+}
+
+.qw1 input {
+  color: white;
+}
+.qw2 input {
+  color: white;
+}
+.qw1 {
+  display: flex;
+  align-items: center !important;
+  gap: 80px;
+  color: #ffd369;
+}
+.qw2 {
+  display: flex;
+  align-items: center !important;
+  gap: 83px;
+  color: #ffd369;
+}
+.qw3 {
+  display: flex;
+  align-items: center !important;
+  gap: 88px;
+  color: #ffd369;
+}
+.qw4 {
+  display: flex;
+  align-items: center !important;
+  gap: 37px;
+  color: #ffd369;
+}
+.qw5 {
+  display: flex;
+  align-items: center !important;
+  gap: 80px;
+  color: #ffd369;
+}
+.qw6 {
+  display: flex;
+  align-items: center !important;
+  gap: 55px;
+  width: 60.4%;
+  color: #ffd369;
+}
+.gb {
+  height: 100vh;
+}
+.gb h2 {
+  color: #ffd369;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 40px;
+  padding: 50px 0;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.cardds {
+  width: 335px;
+}
+.deletebtn {
+  padding: 8px 15px;
+  background-color: red;
+  color: black;
+  border-radius: 6px;
+}
+.editbtn {
+  padding: 8px 15px;
+  background-color: #ffd369;
+  border-radius: 6px;
+}

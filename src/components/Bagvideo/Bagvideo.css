@@ -1,0 +1,10 @@
+.main{
+    width: 100% !important;
+    padding: 0 !important;
+}
+.main video{
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+

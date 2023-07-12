@@ -1,0 +1,306 @@
+.carousel {
+  height: 65vh;
+}
+.carousel-item img {
+  object-fit:cover;
+  height: 65vh;
+  width: 100%;
+}
+.item-text {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  color: white;
+  left: 15%;
+}
+.premium {
+  background: #ff7800;
+  margin-left: 5%;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 20px;
+  transition: 1s ease;
+}
+.premium:hover {
+  color: rgb(193, 27, 27);
+  
+}
+.new-free {
+  border: none;
+  border-radius: 4px;
+  margin-left: 5%;
+  padding: 6px 20px;
+  background: rgb(32, 207, 32);
+  transition: 1s ease;
+}
+.new-free:hover {
+  color: rgb(21, 120, 152);
+  
+}
+.item-text h6 {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 24px;
+}
+.item-text p {
+  font-size: 13px;
+}
+.actor {
+  font-weight: 600;
+  font-size: 13px;
+}
+.play-btn button{
+  background: transparent;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+}
+.play-btn:hover{
+    background: transparent;
+}
+.play-i:hover{
+    background-color: transparent;
+}
+.play-text {
+  color: white;
+}
+.play-btn img{
+  width: 30px;
+  height: 30px;
+}
+.actor1 {
+  padding-top: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  .carousel-item img {
+    height: 65vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 65vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .carousel-item img {
+    height: 60vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 60vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .carousel-item img {
+    height: 55vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 55vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .carousel-item img {
+    height: 50vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 50vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+  .item-text {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .carousel-item img {
+    height: 47vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 47vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+  .item-text {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .carousel-item img {
+    height: 43vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 43vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+  .item-text {
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .carousel-item img {
+    height: 38vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 38vh;
+  }
+  .play-btn img{
+    width: 30px;
+    height: 30px;
+  }
+  .item-text {
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+  .premium {
+    margin-left: 5%;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  .new-free {
+    margin-left: 5%;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  .item-text h6 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  .item-text p {
+    font-size: 12px;
+  }
+  .actor {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+}
+@media only screen and (max-width: 515px) {
+  .carousel-item img {
+    height: 33vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 33vh;
+  }
+  .play-btn img{
+    width: 25px;
+    height: 25px;
+  }
+  .item-text {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+  .premium {
+    margin-left: 5%;
+    padding: 5px 14px;
+    font-size: 13px;
+  }
+  .new-free {
+    margin-left: 5%;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  .item-text h6 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .item-text p {
+    font-size: 11px;
+    font-weight: 300;
+  }
+  .actor {
+    font-weight: 600;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .carousel-item img {
+    height: 29vh;
+    width: 100%;
+  }
+  .carousel {
+    height: 29vh;
+  }
+  .play-btn img{
+    width: 25px;
+    height: 25px;
+  }
+  .item-text {
+    display: none;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    color: white;
+    left: 15%;
+  }
+  .premium {
+    margin-left: 5%;
+    padding: 3px 8px;
+    font-size: 13px;
+  }
+  .new-free {
+    margin-left: 5%;
+    padding: 3px 8px;
+    font-size: 13px;
+  }
+  .item-text h6 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+  }
+  .item-text p {
+    font-size: 13px;
+  }
+  .actor {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .play-text {
+    font-size: 14px;
+  }
+}

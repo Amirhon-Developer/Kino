@@ -1,0 +1,78 @@
+.card-params video{
+    width: 100%;
+}
+.react-tabs__tab{
+    color: white;
+}
+.react-tabs__tab--selected{
+    color: black;
+}
+.video-react-big-play-button{
+    margin-top: 25%;
+    margin-left: 45%;
+}
+.params{
+    padding: 150px 0px 50px 0px;
+}
+.about{
+    display: flex;
+    padding: 30px 0px;
+    gap: 60px;
+}
+.about_img{
+    width: 50%;
+    height: max-content;
+}
+.texts{
+    
+    color: #FCF1F1;
+}
+.texts_h1{
+    padding-left: 15px;
+    color: #FFD369;
+    font-weight: 200;
+    font-size: 30px;
+}
+.texts_p2  {
+    color: #FCF1F1;
+}
+.texts_p2 i{
+    
+    color: #FCF1F1;
+}
+.texts_p2 span{
+    color: #FCF1F1;
+    font-size: 17px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 925px) {
+    .about{
+        display: block;
+    }
+}
+@media only screen and (max-width: 465px) {
+    .texts_h1{
+        font-weight: 200;
+        font-size: 27px;
+    }
+    .texts_p{
+        font-size: 13px;
+    }
+    .texts_p2  {
+        font-size: 13px;
+
+    }
+}
+@media only screen and (max-width: 350px) {
+    .texts_h1{
+        font-weight: 200;
+        font-size: 25px;
+    }
+    .texts_p{
+        font-size: 12px;
+    }
+    .texts_p2  {
+        font-size: 11px;
+
+    }
+}
